@@ -1,0 +1,50 @@
+.Profile {
+  display: block;
+  width: 400px;
+  background-color: aliceblue;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid bisque;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.photo {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  line-height: 1, 5;
+  color: black;
+  font-size: 24px;
+}
+.items {
+  display: flex;
+  justify-content: center;
+}
+
+.list__items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.item__span {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
