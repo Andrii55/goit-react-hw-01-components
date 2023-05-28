@@ -1,11 +1,10 @@
-table {
+.container {
   width: 100%;
   border-collapse: collapse;
   border: 1px solid wheat;
 }
 
-th,
-td {
+.list__item {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;
@@ -16,6 +15,6 @@ th {
   font-weight: bold;
 }
 
-tr:nth-child(even) {
+.list:nth-child(even) {
   background-color: #f9f9f9;
 }
